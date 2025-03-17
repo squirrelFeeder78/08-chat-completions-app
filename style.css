@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Use Inter for body text */
+  margin: 0;
+  padding-top: 40px;
+  background: #f0f2f5;
+}
+
+.container {
+  max-width: 620px;
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+  color: #2c3e50;
+  margin: 0;
+}
+
+p {
+  color: #7f8c8d;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-top: 34px;
+}
+
+input {
+  font-size: 18px;
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: 'Poppins', sans-serif; /* Use Poppins for buttons */
+}
+
+button:hover {
+  background: #1557b0;
+}
+
+#response {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 6px;
+  white-space: pre-wrap; /* Preserve line breaks and spacing */
+  background-color: #f5f5f5;
+}
