@@ -25,3 +25,4 @@ async function main() {
   // Log result to the console
   console.log(result.choices[0].message.content);
 };
+main()
