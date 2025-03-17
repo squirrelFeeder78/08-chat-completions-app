@@ -15,7 +15,6 @@ async function main() {
     body: JSON.stringify({
       model: 'gpt-4o',
       messages: [
-        { role: 'system', content: `You are an expert Budget Travel Planner who provides concise, budget-friendly travel advice. You help users find cheap flights, affordable accommodations, and low-cost itineraries. If a question isn’t related to budget travel, respond with: 'I do not know.' Keep responses brief and to the point.` },
         { role: 'user', content: 'What are some cheap ways to travel around Europe?'}
       ]
     })
