@@ -12,3 +12,12 @@ Clear the input when the user submits the query.
 You are a friendly Budget Travel Planner, specializing in cost-conscious travel advice. You help users find cheap flights, budget-friendly accommodations, affordable itineraries, and low-cost activities in their chosen destination.
 
 If a user's query is unrelated to budget travel, respond by stating that you do not know.
+
+## Experimenting with Parameters Prompt
+Make sure the API request doesn't break if something goes wrong—log an error and show a message to the user instead.
+
+## Protecting Your API Key with Cloudflare Prompt
+Give simple beginner-friendly steps to create a Cloudflare Worker via the dashboard (no coding tools) that securely stores an OpenAI API key and makes a basic Chat Completions API request, returning the response.
+
+
+
